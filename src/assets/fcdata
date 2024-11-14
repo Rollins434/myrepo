@@ -1,0 +1,137 @@
+{
+    "forecast_A": [
+        {
+            "forecast_values": 169190.7799999998,
+            "confidence_interval_lower": 167797.54999999973,
+            "confidence_interval_upper": 170582.77999999965,
+            "weeek": 39,
+            "day_of_week": 7,
+            "last_day_of_week": 5,
+            "activitydate": "2024-10-05"
+        },
+        {
+            "forecast_values": 230361.88000000044,
+            "confidence_interval_lower": 227637.93000000186,
+            "confidence_interval_upper": 233088.18999999913,
+            "weeek": 40,
+            "day_of_week": 7,
+            "last_day_of_week": 12,
+            "activitydate": "2024-10-12"
+        },
+        {
+            "forecast_values": 235331.22000000018,
+            "confidence_interval_lower": 232406.86000000106,
+            "confidence_interval_upper": 238255.51999999973,
+            "weeek": 41,
+            "day_of_week": 7,
+            "last_day_of_week": 19,
+            "activitydate": "2024-10-19"
+        },
+        {
+            "forecast_values": 234725.1400000002,
+            "confidence_interval_lower": 231756.58000000083,
+            "confidence_interval_upper": 237695.00999999998,
+            "weeek": 42,
+            "day_of_week": 7,
+            "last_day_of_week": 26,
+            "activitydate": "2024-10-26"
+        },
+        {
+            "forecast_values": 152248.42,
+            "confidence_interval_lower": 150121.30000000057,
+            "confidence_interval_upper": 154375.37999999968,
+            "weeek": 43,
+            "day_of_week": 5,
+            "last_day_of_week": 31,
+            "activitydate": "2024-10-31"
+        }
+    ],
+    "forecast_B": [
+        {
+            "forecast_values": 169190.7799999998,
+            "confidence_interval_lower": 167797.54999999973,
+            "confidence_interval_upper": 170582.77999999965,
+            "weeek": 39,
+            "day_of_week": 7,
+            "last_day_of_week": 5,
+            "activitydate": "2024-10-05"
+        },
+        {
+            "forecast_values": 230361.88000000044,
+            "confidence_interval_lower": 227637.93000000186,
+            "confidence_interval_upper": 233088.18999999913,
+            "weeek": 40,
+            "day_of_week": 7,
+            "last_day_of_week": 12,
+            "activitydate": "2024-10-12"
+        },
+        {
+            "forecast_values": 235331.22000000018,
+            "confidence_interval_lower": 232406.86000000106,
+            "confidence_interval_upper": 238255.51999999973,
+            "weeek": 41,
+            "day_of_week": 7,
+            "last_day_of_week": 19,
+            "activitydate": "2024-10-19"
+        },
+        {
+            "forecast_values": 234725.1400000002,
+            "confidence_interval_lower": 231756.58000000083,
+            "confidence_interval_upper": 237695.00999999998,
+            "weeek": 42,
+            "day_of_week": 7,
+            "last_day_of_week": 26,
+            "activitydate": "2024-10-26"
+        },
+        {
+            "forecast_values": 152248.42,
+            "confidence_interval_lower": 150121.30000000057,
+            "confidence_interval_upper": 154375.37999999968,
+            "weeek": 43,
+            "day_of_week": 5,
+            "last_day_of_week": 31,
+            "activitydate": "2024-10-31"
+        }
+    ],
+    "actual": [
+        {
+            "actuals": 152646,
+            "weeek": 39,
+            "day_of_week": 7,
+            "last_day_of_week": 5,
+            "activitydate": "2024-10-05"
+        },
+        {
+            "actuals": 201206,
+            "weeek": 40,
+            "day_of_week": 7,
+            "last_day_of_week": 12,
+            "activitydate": "2024-10-12"
+        },
+        {
+            "actuals": 198320,
+            "weeek": 41,
+            "day_of_week": 7,
+            "last_day_of_week": 19,
+            "activitydate": "2024-10-19"
+        },
+        {
+            "actuals": 202524,
+            "weeek": 42,
+            "day_of_week": 7,
+            "last_day_of_week": 26,
+            "activitydate": "2024-10-26"
+        },
+        {
+            "actuals": 103408,
+            "weeek": 43,
+            "day_of_week": 5,
+            "last_day_of_week": 31,
+            "activitydate": "2024-10-31"
+        }
+    ],
+    "models": [
+        "A",
+        "B"
+    ]
+}
