@@ -1,16 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import ForecastTable from "./component/ForecastTable";
 
 function App() {
-
-
   return (
     <>
-     
+    <h1>hello</h1>
+      <ForecastTable />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
