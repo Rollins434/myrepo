@@ -1,0 +1,41 @@
+import React from "react";
+import styles from "./customtab.module.scss";
+import { NavLink } from "react-router-dom";
+
+const CustomTab = () => {
+  return (
+    <div className={styles.wrapper}>
+      <NavLink className={styles.item}>Disconnect</NavLink>
+      <NavLink className={styles.item}>Gross Add</NavLink>
+      <NavLink className={styles.item}>Upgrades</NavLink>
+    </div>
+  );
+};
+
+export default CustomTab;
+
+<Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            {/* 
+            <Route path="/forecast" element={<Forecast />}>
+              <Route path="volume/vcg" element={<VCG />} />
+              <Route path="volume/vbg" element={<h2>Coming Soon</h2>} />
+              <Route path="volume/fwa" element={<h2>Coming Soon</h2>} />
+            </Route> */}
+            <Route path="/vcg/mobile" element={<Mobile />} />
+          </Route>
+        </Routes>
+
+import React from "react";
+import CustomTab from "../../component/CommonComponents/CustomTab";
+
+const Mobile = () => {
+  return (
+    <>
+      <CustomTab />
+    </>
+  );
+};
+
+export default Mobile;
